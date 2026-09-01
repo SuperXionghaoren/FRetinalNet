@@ -1,0 +1,28 @@
+# weights & data (hosted on Hugging Face; DRIVE must be registered/downloaded by the user)
+weights/
+data/DRIVE/
+*.pth
+*.pt
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# environments
+.venv/
+venv/
+env/
+
+# experiments
+outputs/
+runs/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+NUL
+demo_result.png
